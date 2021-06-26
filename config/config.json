@@ -1,0 +1,75 @@
+{
+	"server_info": {
+            "name": "Central",
+            "id_server": "PA1",
+            "ip_address": "192.168.99.25",
+            "group": "0",
+            "type_server": "NodeJS_CENTRAL",
+	    "reload_config" : 120,
+	    "port_checkmk" : 6557
+	},
+    "debug": {
+	"io" : 0,
+	"web" : 8,
+	"admin": 8,
+	"fpath" : "/var/log/",
+	"fname" : "node_admin.log",
+	"fspaces" : false,
+        "log_file": 3,
+        "log_console":3,
+	"event" : 4
+    },
+    "web": {
+	"load": "on",
+	"loaded": "",
+	"port": 8080,
+	"ip_address": "0.0.0.0"
+    },
+    "clients_io" :{
+	"repeat" : 12000,
+	"repeat_dcript": " repite cada 12 segundos"
+    },
+    "superv": {
+        "io_port": "6063"
+    },
+    "webphones": {
+        "io_port": "5556"
+    },
+    "mac": {
+        "io_port": "5557"
+    },
+    "mysql" : {
+	"host": "192.168.99.5",
+	"user": "2piopnd0unw34",
+	"database": "GestionPBX",
+	"pass": "Fy57xqKy+a.-zh1sM!f9"
+    },
+    "certs" : {
+	"key": "/usr/src/app_node/NODE_CENTRAL/config/cert/file.pem",
+	"crt": "/usr/src/app_node/NODE_CENTRAL/config/cert/file.crt",
+	"requestCert" : false,
+	"rejectUnauthorized" : false
+    },
+    "subscribe" :   "/usr/src/app_node/NODE_CENTRAL/config/subscribe.json",
+    "authorization": {
+		"secretToken" : "0nq2odnq03nd02inf0iu2wnvsacn 2340qnf 0", 
+        "web": "pruebatoken",
+        "timeout" : 5000,
+        "expiresInSeconds" : 5,
+        "user": [
+            "::1",
+            "192.168.72.18",
+	    "192.168.72.238",
+            "192.168.72.16",
+            "192.168.72.20",
+            "::ffff:192.168.72.20",
+            "::ffff:192.168.72.18",
+	    "::ffff:192.168.72.238",
+	    "::ffff:192.168.72.140",
+	    "::ffff:192.168.72.228",
+	    "::ffff:192.168.72.231",
+	    "::ffff:192.168.72.239",
+	    "::ffff:192.168.72.17"
+        ]
+    }
+}

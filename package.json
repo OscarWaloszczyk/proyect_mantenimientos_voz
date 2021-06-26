@@ -1,0 +1,19 @@
+{
+  "name": "proyect_mantenimientos_voz",
+  "version": "1.0.0",
+  "description": "mantenimientos voz",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OscarWaloszczyk/proyect_mantenimientos_voz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OscarWaloszczyk/proyect_mantenimientos_voz/issues"
+  },
+  "homepage": "https://github.com/OscarWaloszczyk/proyect_mantenimientos_voz#readme"
+}
